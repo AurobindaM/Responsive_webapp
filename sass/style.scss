@@ -1,0 +1,32 @@
+// Template:main Style file
+
+
+body{
+    // padding: 0rem .5rem;
+    // margin: 1rem;
+    // overflow-x: hidden;
+    background-image: url(../assets/site_background.png);
+    background-repeat: round;
+    background-size: cover;
+}
+
+// bootstrap file
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+// owl.carousel 
+@import '../node_modules/owl.carousel/src/scss/owl.carousel.scss';
+
+@import '../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
+
+// Google font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito&display=swap');
+
+// Templates
+
+@import './includes/variable';
+@import './includes/global';
+@import './includes/header';
+@import './includes/banner';
+@import './includes/tech';
+@import './includes/security';
+@import './includes/footer';

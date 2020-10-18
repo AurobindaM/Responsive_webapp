@@ -1,0 +1,34 @@
+#banner {
+  background-image: url(../../assets/backgroundimg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .space {
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    width: 100%;
+    height: 600px;
+    color: white;
+
+    .buttons {
+      > a {
+        margin-left: 0.7rem;
+        padding: 0.4rem 1.8rem;
+        &:hover {
+          background: white !important ;
+          > span {
+            color: $dark;
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width:992px) {
+    .space{
+      padding-top: 10rem;
+      height: 500px;
+    }
+  }
+}
